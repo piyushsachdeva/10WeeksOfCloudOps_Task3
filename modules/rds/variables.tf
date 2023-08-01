@@ -7,5 +7,5 @@ variable "db_sub_name" {
     default = "book-shop-db-subnet-a-b"
 }
 variable "db_name" {
-    default = "test-db"
+    default = "testdb"
 }
