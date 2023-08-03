@@ -3,7 +3,7 @@
 ✨This repository is created to learn and deploy  2-tier application on aws cloud through terraform. 
 
 ## 🏠 Architecture
-#![Architecture of the application]()
+
 
 ## 🖥️ Installation of Terraform
 
