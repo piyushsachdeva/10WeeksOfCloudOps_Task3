@@ -7,6 +7,7 @@
 
 ## 🏠 Architecture
 
+![Architecture diagram](https://twitter.com/i/status/1671966048059531264)
 
 ## 🖥️ Installation of Terraform
 
