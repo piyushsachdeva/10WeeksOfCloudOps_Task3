@@ -7,7 +7,9 @@
 
 ## 🏠 Architecture
 
-![Architecture diagram](https://twitter.com/i/status/1671966048059531264)
+![Architecture diagram](https://github.com/AnkitJodhani/3rdWeekofCloudOps/blob/main/architecture.gif)
+
+[Image Source: Ankit Jodhani](https://github.com/AnkitJodhani/3rdWeekofCloudOps/blob/main/architecture.gif)
 
 ## 🖥️ Installation of Terraform
 
@@ -31,7 +33,7 @@ We need a public key and a private key for our server so please follow the proce
 cd modules/key/
 ssh-keygen
 ```
-The above command asks for the key name and then gives `client_key` it will create pair of keys one public and one private. you can give any name you want but then you need to edit the Terraform file
+The above command asks for the key name and then gives `client_key` it will create a pair of keys one public and one private. you can give any name you want but then you need to edit the Terraform file
 
 Edit the below file according to your configuration
 ```sh
@@ -49,12 +51,12 @@ terraform {
 }
 ```
 ### 🏠 Let's set up the variable for our Infrastructure
-Create one file with the name of `terraform.tfvars` 
+Create one file with the name `terraform.tfvars` 
 ```sh
 vim root/terraform.tfvars
 ```
 ### 🔐 ACM certificate
-Go to AWS console --> AWS Certificate Manager (ACM) and make sure you have a valid certificate in Issued status, if not , feel free to create one and use the domain name on which you are planning to host your application.
+Go to AWS console --> AWS Certificate Manager (ACM) and make sure you have a valid certificate in Issued status, if not, feel free to create one and use the domain name on which you are planning to host your application.
 
 ### 👨‍💻 Route 53 Hosted Zone
 Go to AWS Console --> Route53 --> Hosted Zones and ensure you have a public hosted zone available, if not create one.
