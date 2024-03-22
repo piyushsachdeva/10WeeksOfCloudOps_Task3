@@ -13,7 +13,7 @@
 
 ## 🖥️ Installation of Terraform
 
-**Note**: Follow the blog to Install the Terraform and other dependencies. [Terraform]()
+**Note**: Follow the blog for the step-by-step instructions to build this project. [Terraform](https://ankitjodhani.hashnode.dev/implementing-two-tier-architecture-in-aws-with-terraform-step-by-step-guide-10weeksofcloudops)
 
 ### Create S3 Backend Bucket
 Create an S3 bucket to store the .tfstate file in the remote backend
